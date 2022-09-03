@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> testing children 1`] = `
+<div
+  className="card"
+  data-testid="card_ui"
+>
+  <div
+    className="container"
+    data-testid="card_content_ui"
+  >
+    children
+  </div>
+</div>
+`;

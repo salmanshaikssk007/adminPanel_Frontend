@@ -1,0 +1,29 @@
+.inputTag input {
+  border: none;
+  background-color: rgba(0, 0, 255, 0.094);
+  border-radius: 4px;
+  appearance: none;
+  outline: none;
+  width: 200px;
+  height: 25px;
+}
+.inputTag input:focus {
+  border: none;
+  border-bottom: 2px solid #000000;
+}
+.inputTag > .search input[type='text'] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  /* background-image: url('searchicon.png'); */
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+.inputTag > .search input[type='text']:focus {
+  width: 100%;
+}

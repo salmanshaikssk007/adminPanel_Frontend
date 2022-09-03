@@ -1,0 +1,40 @@
+.searchContainer {
+  margin: 50px 20px 30px 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.search {
+  display: inline-block;
+}
+form.search input[type='text'] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 25px;
+  float: left;
+  width: 60vw;
+  background: #f1f1f1;
+  height: 40px;
+  position: relative;
+}
+
+/* Style the submit button */
+form.search button {
+  position: absolute;
+  height: 40px;
+  left: 63.5vw;
+  float: left;
+  width: 4%;
+  padding: 10px;
+  background: #1e293bb1;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  border-radius: 25px;
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 425px) {
+}

@@ -1,0 +1,43 @@
+.userOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+}
+.container {
+  padding-right: 0;
+  padding-left: 100px;
+  width: 100%;
+  background: #f1f1f1;
+}
+section {
+  height: 78vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.optionsHeader {
+  margin: 0 40px 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.resultsData {
+  overflow-y: scroll;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #d8d8ef;
+  height: 100%;
+}
+.userInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.actions {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 425px) {
+}

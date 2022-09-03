@@ -1,0 +1,42 @@
+.updateUserButton {
+  padding: 0 30px;
+  border-radius: 5px;
+  background-color: rgba(0, 128, 0, 0.612);
+  color: #ffffff;
+}
+.updateUserButton:hover {
+  border: 2px solid rgba(0, 128, 0, 0.612);
+  background-color: #ffffff;
+  color: #00000071;
+}
+.formContainer {
+  width: 100%;
+  margin: 30px 0;
+}
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+.inputContainer label {
+  margin: 0 5px;
+}
+.showBtn {
+  text-align: center;
+  display: flex;
+  justify-self: left;
+  padding: 2px 15px;
+  width: 200px;
+  margin-top: 5px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 255, 0.595);
+  border: none;
+  border-radius: 5px;
+}
+.showBtn:hover {
+  background-color: transparent;
+  border: 2px solid;
+  border-color: rgba(0, 0, 255, 0.595);
+  color: rgba(0, 0, 255, 0.595);
+}

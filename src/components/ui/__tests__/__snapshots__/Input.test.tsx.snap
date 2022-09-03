@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputTag /> check of type 1`] = `"<div class=\\"inputTag\\"><input data-testid=\\"input_ui\\" class=\\"variousName\\" type=\\"text\\"/></div>"`;
